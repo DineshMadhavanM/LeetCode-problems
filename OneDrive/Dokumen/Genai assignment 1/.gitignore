@@ -45,3 +45,64 @@ ENV/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Windows specific files
+NTUSER.DAT*
+ntuser.*
+desktop.ini
+
+# Node.js
+node_modules/
+package-lock.json
+package.json
+
+# Personal files
+*.pdf
+*.pptx
+*.docx
+*.pbix
+*.lnk
+
+# System files
+.cache/
+.m2/
+.p2/
+
+# Game directories
+/Euro Truck Simulator 2/
+/NFS Most Wanted/
+/Rockstar Games/
+
+# Project specific
+/backend/
+/playkers-booking/
+/face_recognition_project-*/
+
+# Web files
+*.html
+*.js
+
+# Ignore all files in parent directories
+*/
+!*/
+
+# But don't ignore the current directory
+!*/
+!*.*
+
+# Allow .gitignore
+!.gitignore
+
+# Allow README files
+!README*
+
+# Allow Python files
+!*.py
+
+# Allow requirements files
+!requirements*.txt
+
+# Allow the main project files
+!app.py
+!wsgi.py
+!cli.py
